@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context
+path="/jersey2backbornjs"
+reloadable="true">
+	<Resource
+	name="MySQL_JDBC"
+	auth="Container"
+	type="javax.sql.DataSource"
+	username="${MySQL_JDBC.username}"
+	password="${MySQL_JDBC.password}"
+	driverClassName="com.mysql.jdbc.Driver"
+	url="${MySQL_JDBC.url}"
+	validationQuery="select 1"
+	maxActive="100"
+	maxIdle="30"
+	maxWait="10000"/>
+</Context>
+

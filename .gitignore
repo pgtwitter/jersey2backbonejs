@@ -1,0 +1,7 @@
+/.settings/
+/target/
+/target-dist/
+/work/
+/.classpath
+/.project
+/.tomcatplugin
